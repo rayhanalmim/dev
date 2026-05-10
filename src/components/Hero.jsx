@@ -19,15 +19,15 @@ const Hero = () => {
   }, [])
 
   const quickStats = [
-    { icon: <FaCalendar />, value: '8+', label: 'Years Experience' },
-    { icon: <SiReact />, value: '20+', label: 'Full Stack Projects' },
-    { icon: <FaMobileAlt />, value: '8+', label: 'Mobile Apps' },
-    { icon: <FaTasks />, value: '5+', label: 'Industries' }
+    { icon: <FaCalendar />, value: '3+', label: 'Years Coding' },
+    { icon: <SiReact />, value: '40+', label: 'Projects Shipped' },
+    { icon: <FaMobileAlt />, value: '20+', label: 'Happy Clients' },
+    { icon: <FaTasks />, value: '99%', label: 'On-time Delivery' }
   ]
 
   return (
     <section id="home" className="hero">
-      <div className="hero-container">
+      <div className="hero-container hero-grid">
         <motion.div
           className="hero-content"
           initial={{ opacity: 0, y: 50 }}
@@ -41,7 +41,7 @@ const Hero = () => {
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.8, delay: 0.2 }}
             >
-              <span className="title-part-1">Senior</span>
+              <span className="title-part-1">Hi, I&apos;m Fazle Rabbi</span>
               <span className="title-part-2 typing-animation">{roles[currentRole]}</span>
             </motion.span>
             <motion.span
@@ -134,6 +134,39 @@ const Hero = () => {
                 </motion.div>
               ))}
             </div>
+          </motion.div>
+        </motion.div>
+
+        <motion.div
+          className="hero-visual"
+          initial={{ opacity: 0, scale: 0.85 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 0.9, delay: 0.2 }}
+        >
+          <motion.div
+            className="hero-avatar-glow"
+            animate={{
+              scale: [1, 1.12, 1],
+              rotate: [0, 90, 0],
+              borderRadius: [
+                '40% 60% 70% 30% / 40% 50% 60% 50%',
+                '60% 40% 30% 70% / 50% 60% 40% 60%',
+                '40% 60% 70% 30% / 40% 50% 60% 50%'
+              ]
+            }}
+            transition={{ duration: 14, repeat: Infinity, ease: 'linear' }}
+          />
+          <motion.div
+            className="hero-avatar-frame"
+            animate={{ y: [0, -14, 0] }}
+            transition={{ duration: 6, repeat: Infinity, ease: 'easeInOut' }}
+          >
+            <img
+              src="https://i.ibb.co.com/qYSLPQPC/Chat-GPT-Image-May-8-2026-08-50-25-PM.png"
+              alt="Fazle Rabbi"
+              className="hero-avatar-img"
+              loading="eager"
+            />
           </motion.div>
         </motion.div>
       </div>

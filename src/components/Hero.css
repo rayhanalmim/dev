@@ -3,7 +3,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-top: 200px;
+  padding-top: 100px;
   padding-bottom: 80px;
   position: relative;
   overflow: hidden;
@@ -45,7 +45,7 @@
 }
 
 .hero-container {
-  max-width: 1200px;
+  max-width: 1400px;
   margin: 0 auto;
   padding: 0 2rem;
   width: 100%;
@@ -53,13 +53,73 @@
   position: relative;
 }
 
+/* Two-column hero layout (desktop) */
+.hero-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.05fr) minmax(0, 0.95fr);
+  gap: 3.5rem;
+  align-items: center;
+}
+
 .hero-content {
-  text-align: center;
-  margin-bottom: 3rem;
+  text-align: left;
+  margin-bottom: 0;
   animation: fadeInUp 0.8s ease;
-  max-width: 900px;
-  margin-left: auto;
-  margin-right: auto;
+  max-width: 640px;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+/* Right-side avatar visual */
+.hero-visual {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  max-width: 460px;
+  justify-self: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-avatar-glow {
+  position: absolute;
+  inset: -8%;
+  background: linear-gradient(135deg,
+    rgba(59, 130, 246, 0.35),
+    rgba(139, 92, 246, 0.28),
+    rgba(236, 72, 153, 0.32)
+  );
+  filter: blur(90px);
+  z-index: 0;
+  pointer-events: none;
+}
+
+.hero-avatar-frame {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  padding: 10px;
+  background:
+    linear-gradient(180deg, rgba(20, 16, 42, 0.7), rgba(12, 9, 28, 0.65));
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  box-shadow:
+    0 35px 120px rgba(59, 130, 246, 0.18),
+    inset 0 1px 0 rgba(255, 255, 255, 0.06);
+  backdrop-filter: blur(12px);
+  z-index: 1;
+  overflow: hidden;
+}
+
+.hero-avatar-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  display: block;
+  background: #050313;
+  border: 1px solid rgba(255, 255, 255, 0.08);
 }
 
 .hero-title {
@@ -75,7 +135,7 @@
   line-height: 1.1;                         
   display: flex;
   gap: 0.5rem;
-  justify-content: center;
+  justify-content: flex-start;
   flex-wrap: wrap;
 }
 
@@ -134,9 +194,9 @@
   font-size: 1.2rem;
   color: var(--text-secondary);
   margin-bottom: 2rem;
-  max-width: 650px;
-  margin-left: auto;
-  margin-right: auto;
+  max-width: 600px;
+  margin-left: 0;
+  margin-right: 0;
   animation: fadeInUp 1s ease 0.4s both;
   font-weight: 400;
   letter-spacing: 0.3px;
@@ -145,8 +205,8 @@
 /* Hero Contact Links */
 .hero-contacts {
   display: flex;
-  justify-content: center;
-  gap: 2rem;
+  justify-content: flex-start;
+  gap: 1.25rem;
   margin-bottom: 2.5rem;
 }
 
@@ -248,8 +308,8 @@
 .quick-stats-horizontal {
   display: flex;
   gap: 1rem;
-  flex-wrap: nowrap;
-  justify-content: center;
+  flex-wrap: wrap;
+  justify-content: flex-start;
   overflow-x: auto;
   padding: 0.5rem 0;
 }
@@ -346,39 +406,74 @@
   }
 }
 
+/* Tablet: stack vertically with avatar above text */
+@media (max-width: 1024px) {
+  .hero-grid {
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+    text-align: center;
+  }
+  .hero-content {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .hero-title-main {
+    justify-content: center;
+  }
+  .hero-description {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .hero-contacts {
+    justify-content: center;
+  }
+  .quick-stats-horizontal {
+    justify-content: center;
+  }
+  .hero-visual {
+    order: -1;
+    max-width: 340px;
+  }
+}
+
 @media (max-width: 768px) {
   .hero-title-main {
     font-size: 2rem;
   }
-  
+
   .hero-title-sub {
     font-size: 1.25rem;
   }
-  
+
   .hero-description {
     font-size: 1rem;
   }
-  
+
   .hero-contacts {
     gap: 0.75rem;
   }
-  
+
   .contact-link-hero {
     width: 45px;
     height: 45px;
     font-size: 1.3rem;
   }
-  
+
   .quick-stats-horizontal {
     flex-wrap: wrap;
     justify-content: center;
   }
-  
+
   .quick-stat-pill {
     padding: 0.9rem 1.25rem;
   }
-  
+
   .stat-content-pill {
     gap: 0.4rem;
+  }
+
+  .hero-visual {
+    max-width: 280px;
   }
 }

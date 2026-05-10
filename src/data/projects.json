@@ -57,7 +57,7 @@
     "categories": ["Fullstack"],
     "image": "gsap.png",
     "liveLink": "https://gsap-cocktail-six-snowy.vercel.app/",
-    "githubLink": "https://github.com/luukogod/Gsap-Cocktail"
+    "githubLink": ""
   },
   {
     "title": "MortalSoft",
@@ -67,7 +67,7 @@
     "categories": ["Game", "Blockchain"],
     "image": "mortalsoft.png",
     "liveLink": "https://mortalsoft.net/",
-    "githubLink": "https://github.com/luukogod/MortalSoft-Casino-game"
+    "githubLink": ""
   },
   {
     "title": "OpenSaaS",
@@ -77,7 +77,7 @@
     "categories": ["Fullstack"],
     "image": "open-saas.png",
     "liveLink": "https://opensaas.sh/",
-    "githubLink": "https://github.com/luukogod/Open-SaaS"
+    "githubLink": ""
   },
   {
     "title": "QuickAI",
@@ -87,7 +87,7 @@
     "categories": ["AI/ML"],
     "image": "quickai.png",
     "liveLink": "https://quick-ai-gray-eight.vercel.app/",
-    "githubLink": "https://github.com/luukogod/QuickAI"
+    "githubLink": ""
   },
   {
     "title": "Healthcare Service",
@@ -97,7 +97,7 @@
     "categories": ["Fullstack"],
     "image": "healthcare.png",
     "liveLink": "https://healthcare-service-react-app.web.app/",
-    "githubLink": "https://github.com/luukogod/Healthcare-React-App"
+    "githubLink": ""
   },
   {
     "title": "Balancer.fi",
@@ -117,7 +117,7 @@
     "categories": ["AI/ML", "Blockchain"],
     "image": "Suithetic.png",
     "liveLink": "https://www.suithetic.com/",
-    "githubLink": "https://github.com/lorine93s/suithetic"
+    "githubLink": ""
   },
   {
     "title": "Veenox",
@@ -127,7 +127,7 @@
     "categories": ["Blockchain"],
     "image": "veenox.png",
     "liveLink": "https://veenox.xyz/",
-    "githubLink": "https://github.com/lorine93s/Veenox---Perpetual-trading-platfom"
+    "githubLink": ""
   },
   {
     "title": "Talk to Hosico",
@@ -137,7 +137,7 @@
     "categories": ["AI/ML"],
     "image": "hosico.png",
     "liveLink": "https://talk-to-hosico.vercel.app/",
-    "githubLink": "https://github.com/luukogod/Hosico-AI-Chatbot"
+    "githubLink": ""
   },
   {
     "title": "Ape Store",
@@ -189,7 +189,7 @@
     "categories": ["Fullstack"],
     "image": "linksbase.png",
     "websiteLink": "https://demo.linksbase.app/",
-    "githubLink": "https://github.com/luukogod/links-base"
+    "githubLink": ""
   },
   {
     "title": "Bless Payments",

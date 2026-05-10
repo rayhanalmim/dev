@@ -2,4 +2,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://luukogod.github.io/luukogod-porfolio/sitemap.xml
+Sitemap: https://fazlerabbi.com/sitemap.xml

@@ -1,46 +1,47 @@
 {
-  "siteUrl": "https://luukogod.github.io/luukogod-porfolio/",
+  "siteUrl": "https://fazlerabbi.com/",
   "person": {
-    "displayName": "Vitaliy Sopin",
-    "copyrightName": "Vitaliy Sopin"
+    "displayName": "Fazle Rabbi",
+    "copyrightName": "Fazle Rabbi"
   },
   "contact": {
-    "email": "sopinvitaly97@gmail.com",
-    "linkedin": "https://www.linkedin.com/in/vitaliy-sopin-1a16713a7/",
-    "github": "https://github.com/luukogod",
-    "telegram": "https://t.me/lorine93ss"
+    "email": "hello@fazlerabbi.com",
+    "phone": "+880 1XXXXXXXXX",
+    "location": "Dhaka, Bangladesh",
+    "linkedin": "#",
+    "github": "#",
+    "telegram": ""
   },
   "hero": {
     "roles": [
-      "Full Stack Engineer"
+      "MERN Stack Developer"
     ],
-    "tagline": "Building Scalable Web & Mobile Applications",
-    "description": "Expert high performance in full stack, frontend & backend development • iOS & Android • modern web"
+    "tagline": "Building Scalable Full-Stack Web Applications",
+    "description": "I build scalable fullstack applications using React, Node.js, Express, and MongoDB. I turn complex ideas into seamless digital experiences."
   },
   "seo": {
-    "title": "Developer Portfolio | Frontend Developer Portfolio & Full Stack Projects | React, Node.js",
-    "description": "Developer portfolio showcasing frontend and full stack projects built with React, Node.js, and TypeScript. Explore real-world apps, case studies, and GitHub code.",
+    "title": "Fazle Rabbi — Full-Stack MERN Engineer",
+    "description": "Portfolio of Fazle Rabbi: scalable MERN applications, refined UI engineering, real-time systems and high-performance web experiences built with React, Node.js, Express, and MongoDB.",
     "keywords": [
-      "developer portfolio",
-      "senior full stack engineer portfolio",
-      "fullstack portfolio",
-      "fullstack developer portfolio",
+      "Fazle Rabbi",
+      "MERN developer portfolio",
       "full stack developer portfolio",
-      "frontend developer portfolio",
-      "frontend portfolio",
-      "backend developer portfolio",
-      "full stack portfolio",
-      "github portfolio developer",
-      "developer portfolio github",
-      "react portfolio",
+      "fullstack portfolio",
+      "react developer portfolio",
       "node.js developer",
+      "express developer",
+      "mongodb developer",
+      "frontend developer portfolio",
+      "backend developer portfolio",
+      "web developer Bangladesh",
+      "javascript portfolio",
       "typescript portfolio",
       "software engineer portfolio"
     ],
-    "author": "Vitaliy Sopin",
-    "ogImage": "https://cdn.dribbble.com/userupload/31363804/file/original-d6770bbed5cca1f3c1146fc1d425d40d.png?resize=1024x768&vertical=center",
+    "author": "Fazle Rabbi",
+    "ogImage": "https://i.ibb.co.com/qYSLPQPC/Chat-GPT-Image-May-8-2026-08-50-25-PM.png",
     "twitterCard": "summary_large_image",
     "twitterSite": "",
-    "jobTitle": "Senior Full Stack Engineer"
+    "jobTitle": "Full-Stack MERN Engineer"
   }
 }

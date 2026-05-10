@@ -89,7 +89,7 @@ const About = () => {
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: 0.1 }}
             >
-              <strong>Senior Full Stack Engineer</strong> with <strong>8+ years</strong> of professional experience building scalable <strong>fullstack</strong> and <strong>mobile applications</strong> for both startups and enterprises.
+              <strong>MERN Stack Web Developer</strong> focused on building aesthetic, high-performance applications. I enjoy designing APIs, crafting attractive user interfaces, and optimizing performance to deliver smooth and efficient user experiences.
             </motion.p>
             <motion.p
               initial={{ opacity: 0, y: 20 }}
@@ -97,7 +97,7 @@ const About = () => {
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: 0.2 }}
             >
-              Specialized in <strong>React</strong> and <strong>Next.js</strong>, with solid experience in <strong>Vue.js</strong> and <strong>Angular</strong>. Strong backend background using <strong>Node.js</strong>, <strong>Python</strong>, and <strong>PHP/Laravel</strong>, with working knowledge of <strong>Java</strong> and <strong>.NET</strong> ecosystems.
+              Specialized in <strong>React</strong> and <strong>Next.js</strong> on the frontend, with a strong backend foundation in <strong>Node.js</strong>, <strong>Express</strong>, and <strong>MongoDB</strong>. Comfortable across the full stack — from database modeling to pixel-perfect UI.
             </motion.p>
             <motion.p
               initial={{ opacity: 0, y: 20 }}
@@ -105,7 +105,7 @@ const About = () => {
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: 0.3 }}
             >
-              Experienced in both <strong>startup</strong> and <strong>enterprise</strong> environments, collaborating with cross-functional teams. Known for clear communication, strong problem-solving skills, and a collaborative mindset.
+              I follow <strong>clean architecture</strong> principles and modern development patterns. My goal is to write clean, maintainable code, improve <strong>UI/UX</strong> flows, and build applications that feel fast, secure, and intuitive.
             </motion.p>
             <motion.p
               initial={{ opacity: 0, y: 20 }}
@@ -113,7 +113,7 @@ const About = () => {
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: 0.4 }}
             >
-              Proven technical leader in <strong>Agile</strong> teams, delivering projects end-to-end and mentoring engineers on architecture, code quality, and <strong>DevOps</strong> best practices. Focused on performance, maintainability, and high-quality user experiences.
+              Strong problem-solver with a focus on <strong>performance</strong>, <strong>scalability</strong>, and shipping production-ready features end-to-end. Always learning, always iterating, always building.
             </motion.p>
           </div>
         </div>

@@ -83,7 +83,7 @@ const Projects = () => {
       category: 'Fullstack',
       image: '../assets/gsap.png',
       liveLink: 'https://gsap-cocktail-six-snowy.vercel.app/',
-      githubLink: 'https://github.com/luukogod/Gsap-Cocktail',
+      githubLink: '',
       icon: <SiReact />
     },
     {
@@ -95,7 +95,7 @@ const Projects = () => {
       category: 'Game',
       image: 'https://images.unsplash.com/photo-1614732414444-096e5f1122d5?w=800&h=600&fit=crop',
       liveLink: 'https://mortalsoft.net/',
-      githubLink: 'https://github.com/luukogod/MortalSoft-Casino-game',
+      githubLink: '',
       icon: <SiBlockchaindotcom />
     },
     {
@@ -107,7 +107,7 @@ const Projects = () => {
       category: 'Fullstack',
       image: 'https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=600&fit=crop',
       liveLink: 'https://opensaas.sh/',
-      githubLink: 'https://github.com/luukogod/Open-SaaS',
+      githubLink: '',
       icon: <FaCloud />
     },
     {
@@ -119,7 +119,7 @@ const Projects = () => {
       category: 'AI/ML',
       image: 'https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=600&fit=crop',
       liveLink: 'https://quick-ai-gray-eight.vercel.app/',
-      githubLink: 'https://github.com/luukogod/QuickAI',
+      githubLink: '',
       icon: <FaRobot />
     },
     {
@@ -131,7 +131,7 @@ const Projects = () => {
       category: 'Fullstack',
       image: 'https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?w=800&h=600&fit=crop',
       liveLink: 'https://healthcare-service-react-app.web.app/',
-      githubLink: 'https://github.com/luukogod/Healthcare-React-App',
+      githubLink: '',
       icon: <FaHeartbeat />
     },
     {
@@ -155,7 +155,7 @@ const Projects = () => {
       category: 'AI/ML',
       image: 'https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=800&h=600&fit=crop',
       liveLink: 'https://www.suithetic.com/',
-      githubLink: 'https://github.com/luukogod/suithetic',
+      githubLink: '',
       icon: <SiBlockchaindotcom />
     },
     {
@@ -167,7 +167,7 @@ const Projects = () => {
       category: 'Blockchain',
       image: 'https://images.unsplash.com/photo-1642790553124-4c56d74c5a65?w=800&h=600&fit=crop',
       liveLink: 'https://veenox.xyz/',
-      githubLink: 'https://github.com/luukogod/Veenox---Perpetual-trading-platfom',
+      githubLink: '',
       icon: <FaExchangeAlt />
     },
     {
@@ -179,7 +179,7 @@ const Projects = () => {
       category: 'AI/ML',
       image: 'https://images.unsplash.com/photo-1677442135136-760c3006743a?w=800&h=600&fit=crop',
       liveLink: 'https://talk-to-hosico.vercel.app/',
-      githubLink: 'https://github.com/luukogod/Hosico-AI-Chatbot',
+      githubLink: '',
       icon: <FaRobot />
     },
     {
